@@ -1,6 +1,6 @@
 import { BehaviorSubject } from "rxjs";
-import { CreateUserUseCase } from "../../domain/usecases/CreateUserUseCase";
-import { User } from "../../domain/entities/User";
+import { CreateUserUseCase } from "@/domain/usecases/CreateUserUseCase";
+import { User } from "@/domain/entities/User";
 
 export class UserViewModel {
   users$ = new BehaviorSubject<User[]>([]);

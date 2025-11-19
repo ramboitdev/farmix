@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, Button, FlatList, Text, StyleSheet } from "react-native";
-// Import container factory to create instances at runtime
-import { createContainer } from "../../app/di/container";
+import { createContainer } from "@/app/di/container";
 
 export const UserScreen = () => {
   const [users, setUsers] = useState<any[]>([]);

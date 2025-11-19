@@ -1,5 +1,5 @@
-import { MongoDataSource } from "../../data/datasources/MongoDataSource";
-import { CONFIG } from "../../core/constants/config";
+import { MongoDataSource } from "@/data/datasources/MongoDataSource";
+import { CONFIG } from "@/core/constants/config";
 
 export const mongoClient = new MongoDataSource();
 

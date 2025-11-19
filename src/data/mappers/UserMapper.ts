@@ -1,4 +1,4 @@
-import { User } from "../../domain/entities/User";
+import { User } from "@/domain/entities/User";
 
 export const toEntity = (doc: any): User =>
   new User(doc._id, doc.name, doc.email, doc.createdAt);
