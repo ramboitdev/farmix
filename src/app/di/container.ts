@@ -1,3 +1,4 @@
+/*
 import { mongoClient } from "@/infra/database/mongoClient";
 import { UserRepository } from "@/data/repositories/UserRepository";
 import { CreateUserUseCase } from "@/domain/usecases/CreateUserUseCase";
@@ -9,4 +10,4 @@ export async function createContainer() {
   const createUser = new CreateUserUseCase(userRepo);
   const userVM = new UserViewModel(createUser);
   return { userVM };
-}
+}*/

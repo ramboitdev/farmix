@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "Famix-mob",
-    "slug": "famix-mob",
+    "name": "Farmix",
+    "slug": "farmix",
     "version": "1.0.0",
     "sdkVersion": "48.0.0",
     "platforms": [
-      "ios",
       "android",
       "web"
     ],
